@@ -6,7 +6,7 @@
 
 .container__wrap {
     width: 377px;
-    height: 1024px;
+    max-height: 1024px;
     background: #4D4C4A;
     padding-top: 98px;
     position: sticky;
