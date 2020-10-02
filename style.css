@@ -1,0 +1,123 @@
+.container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 377px auto;
+}
+
+.container__wrap {
+    width: 377px;
+    height: 1024px;
+    background: #4D4C4A;
+    padding-top: 98px;
+    position: sticky;
+    top: 0;
+    bottom: 0;
+}
+
+.wrap__button {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    color: #FFFFFF;
+    width: 324px;
+    height: 58px;
+    background: #707070;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    transform: translate(9%);
+    margin-bottom: 16px;
+}
+
+.container__wrapper {
+    display: grid;
+    grid-template-rows: 62px auto 72px;
+}
+
+.wrapper__header {
+    background: #707070;
+    position: sticky;
+    top: 0;
+}
+
+.header__text {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    color: #FFFFFF;
+    padding-left: 30px;
+    margin: 0;
+    transform: translateY(50%);
+}
+
+.content__message {
+    width: 80%;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 40px auto;
+    margin-left: 61px;
+}
+
+.message__context {
+    margin-left: 12px;
+}
+
+.context__information {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 50%;
+}
+
+.information__name {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.information__time {
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #8D8D8D;
+}
+.context__text p {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.wrapper__footer {
+    background: #707070;
+    position: sticky;
+    bottom: 0;
+}
+
+textarea {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    color: #FFFFFF;
+    background: #707070;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+textarea::placeholder {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: #FFFFFF;
+    transform: translateY(50%);
+    vertical-align: middle;
+}
+
+
