@@ -96,3 +96,22 @@ function ScrollMessagesToBottom() {
   window.scrollTo(0,document.body.scrollHeight);
 
 }
+
+function myFunction() {
+    document.getElementById("myBurger").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+    if (!event.target.matches('.wrap__burger')) {
+
+        let header__burgers = document.getElementsByClassName("burger-content");
+        let i;
+        for (i = 0; i < header__burgers.length; i++) {
+            let openHeader__burger = header__burgers[i];
+            if (openHeader__burger.classList.contains('show')) {
+                openHeader__burger.classList.remove('show');
+            }
+        }
+    }
+}
