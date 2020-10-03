@@ -1,23 +1,28 @@
+body {
+    margin: 0;
+}
 .container {
     margin: 0 auto;
     display: grid;
     grid-template-columns: 377px auto;
+    height: 100vh;
 }
 
-.container__wrap {
+.container__wrap div {
     width: 377px;
-    max-height: 1024px;
+    height: 100%;
     background: #4D4C4A;
     padding-top: 98px;
-    position: sticky;
+    position: fixed;
     top: 0;
-    bottom: 0;
+    left: 0;
+    z-index: 100;
 }
 
 .wrap__button {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    font-size: 24px;
+    font-size: 18px;
     color: #FFFFFF;
     width: 324px;
     height: 58px;
@@ -49,6 +54,10 @@
     transform: translateY(50%);
 }
 
+.wrapper__content {
+    padding-bottom: 100px;
+}
+
 .content__message {
     width: 80%;
     margin-top: 40px;
@@ -62,9 +71,7 @@
 }
 
 .context__information {
-    display: grid;
-    grid-template-columns: auto auto;
-    width: 50%;
+    padding-bottom: 3px;
 }
 
 .information__name {
@@ -94,8 +101,12 @@
 
 .wrapper__footer {
     background: #707070;
-    position: sticky;
+    position: fixed;
     bottom: 0;
+    left: 0;
+    width: 100%;
+    padding-left: 377px;
+    z-index: 90;
 }
 
 textarea {
