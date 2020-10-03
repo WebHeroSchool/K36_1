@@ -1,7 +1,7 @@
 ShowChannel('work', '#channel for work');
 
 const channelButtons = document.querySelectorAll('.wrap__button'),
-      messageBox = document.querySelector('textarea[name="massage"]');
+      messageBox = document.querySelector('textarea[name="message"]');
 
 channelButtons.forEach(function(elem) {
 
@@ -71,6 +71,9 @@ function ShowChannel(channelId, channelName) {
 
 }
 
+/**
+ * @return {string}
+ */
 function GetMessageDateTime(timestamp) {
 
   let date = new Date(timestamp * 1000);
@@ -79,6 +82,9 @@ function GetMessageDateTime(timestamp) {
 
 }
 
+/**
+ * @return {string}
+ */
 function AddLeadingZeroes(n) {
 
   return String("00" + n).slice(-2);
