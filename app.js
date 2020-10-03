@@ -14,7 +14,7 @@ channelButtons.forEach(function(elem) {
 
   });
 
-})
+});
 
 messageBox.addEventListener("keyup", function(event) {
 
