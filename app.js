@@ -22,8 +22,8 @@ messageBox.addEventListener("keyup", function(event) {
 
     AddMessage({
 
-      authorId: 188372,
-      authorName: "John",
+      authorId: 298473,
+      authorName: "Анастасия",
       time: Math.floor(Date.now() / 1000),
       message: messageBox.value
 

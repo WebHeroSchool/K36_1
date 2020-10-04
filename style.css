@@ -52,6 +52,10 @@ body {
     top: 0;
 }
 
+.header__burger {
+    display: none;
+}
+
 .header__text {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -104,7 +108,7 @@ body {
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
-    line-height: 18px;
+    /*line-height: 18px;*/
 }
 
 .wrapper__footer {
@@ -139,7 +143,10 @@ textarea::placeholder {
     vertical-align: middle;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
+    body {
+        font-size: 14px;
+    }
     .container {
         grid-template-columns: 200px auto;
         height: 100vh;
@@ -173,7 +180,11 @@ textarea::placeholder {
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 450px) {
+    body {
+        font-size: 12px;
+    }
+
     .container {
         grid-template-columns: auto;
     }

@@ -7,97 +7,98 @@ let messages = {
       {
 
         authorId: 188372,
-        authorName: "John",
+        authorName: "Александр",
         time: 1592005800,
-        message: "Working from a van in Australia isn’t feasible if you need internet. It may have improved over the last years but I spent some time in a camper van around Tasmania and internet was a real problem (and Tasmania is tiny compared to the rest of the country)."
+        message: "Анастасия, добрый день! Нужно создать первую версию фронт-приложения, в которой можно увидеть корпоративную сеть от лица одного из сотрудников. \n" +
+            "В ней должно быть 2 раздела: один для обсуждения рабочих вопросов, и второй просто для флуда и общения. В каждом разделе сотрудник должен видеть список всех отправленных сообщений и иметь возможность отправлять сообщения. "
 
       },
       {
 
         authorId: 298473,
-        authorName: "Mary",
+        authorName: "Анастасия",
         time: 1592005800,
-        message: "O-ho-ho!"
+        message: "Добрый день, Александр! Подскажите пожалуйста, какие требования для реализации данного приложения?"
 
       },
       {
 
         authorId: 188372,
-        authorName: "John",
+        authorName: "Александр",
         time: 1592005800,
-        message: "Working from a van in Australia isn’t feasible if you need internet. It may have improved over the last years but I spent some time in a camper van around Tasmania and internet was a real problem (and Tasmania is tiny compared to the rest of the country)."
+        message: "Начальный список сообщений берётся из статического файла, отправленные сообщения хранятся в памяти, реализация сервера не нужна, только клиентская часть. Приложение должно быть адаптивным."
 
       },
       {
 
-        authorId: 188372,
-        authorName: "John",
+        authorId: 298473,
+        authorName: "Анастасия",
         time: 1592005800,
-        message: "Working from a van in Australia isn’t feasible if you need internet. It may have improved over the last years but I spent some time in a camper van around Tasmania and internet was a real problem (and Tasmania is tiny compared to the rest of the country)."
+        message: "Наша команда реализует данный проект. Срок реализации 1 неделя."
 
       },
       {
 
-        authorId: 188372,
-        authorName: "John",
+        authorId: 298473,
+        authorName: "Анастасия",
         time: 1592005800,
-        message: "Working from a van in Australia isn’t feasible if you need internet. It may have improved over the last years but I spent some time in a camper van around Tasmania and internet was a real problem (and Tasmania is tiny compared to the rest of the country)."
+        message: "Света, по данному проекту тебе необходимо изучить существующие месссендеры и подготовить макет в figma."
 
       },
       {
 
-        authorId: 188372,
-        authorName: "John",
+        authorId: 188375,
+        authorName: "Света",
         time: 1592005800,
-        message: "Working from a van in Australia isn’t feasible if you need internet. It may have improved over the last years but I spent some time in a camper van around Tasmania and internet was a real problem (and Tasmania is tiny compared to the rest of the country)."
+        message: "Задача понятна и принята в работу. Срок реализации 2 дня."
 
       },
       {
 
-        authorId: 188372,
-        authorName: "John",
+        authorId: 298473,
+        authorName: "Анастасия",
         time: 1592005800,
-        message: "Working from a van in Australia isn’t feasible if you need internet. It may have improved over the last years but I spent some time in a camper van around Tasmania and internet was a real problem (and Tasmania is tiny compared to the rest of the country)."
+        message: "Галя, по данному проекту у тебя следующая задача: осуществить верстку макета по BEM."
 
       },
       {
 
-        authorId: 188372,
-        authorName: "John",
+        authorId: 188472,
+        authorName: "Галя",
         time: 1592005800,
-        message: "Working from a van in Australia isn’t feasible if you need internet. It may have improved over the last years but I spent some time in a camper van around Tasmania and internet was a real problem (and Tasmania is tiny compared to the rest of the country)."
+        message: "Задача понятна. К реализации приступлю после получения макета. Ориентировочный срок реализации - 1-2 дня."
 
       },
       {
 
-        authorId: 188372,
-        authorName: "John",
+        authorId: 298473,
+        authorName: "Анастасия",
         time: 1592005800,
-        message: "Working from a van in Australia isn’t feasible if you need internet. It may have improved over the last years but I spent some time in a camper van around Tasmania and internet was a real problem (and Tasmania is tiny compared to the rest of the country)."
+        message: "Вова, тебе необходимо будет выполнить стилизацию данного приложения."
 
       },
       {
 
-        authorId: 188372,
-        authorName: "John",
+        authorId: 288372,
+        authorName: "Вова",
         time: 1592005800,
-        message: "Working from a van in Australia isn’t feasible if you need internet. It may have improved over the last years but I spent some time in a camper van around Tasmania and internet was a real problem (and Tasmania is tiny compared to the rest of the country)."
+        message: "Принято. К реализации приступлю после того, как будет выполнена верска приложения. Ориентировочный срок реализации - 1-2 дня."
 
       },
       {
 
-        authorId: 188372,
-        authorName: "John",
+        authorId: 298473,
+        authorName: "Анастасия",
         time: 1592005800,
-        message: "Working from a van in Australia isn’t feasible if you need internet. It may have improved over the last years but I spent some time in a camper van around Tasmania and internet was a real problem (and Tasmania is tiny compared to the rest of the country)."
+        message: "Ребята, за мной реализация части приложения связанная с JS."
 
       },
       {
 
-        authorId: 188372,
-        authorName: "John",
+        authorId: 298473,
+        authorName: "Анастасия",
         time: 1592005800,
-        message: "Working from a van in Australia isn’t feasible if you need internet. It may have improved over the last years but I spent some time in a camper van around Tasmania and internet was a real problem (and Tasmania is tiny compared to the rest of the country)."
+        message: "Всем желаю продуктивной работы!!!"
 
       }
 
@@ -107,18 +108,18 @@ let messages = {
 
       {
 
-        authorId: 188372,
-        authorName: "John",
+        authorId: 298473,
+        authorName: "Анастасия",
         time: 1592005800,
-        message: "Working from a van in Australia isn’t feasible if you need internet. It may have improved over the last years but I spent some time in a camper van around Tasmania and internet was a real problem (and Tasmania is tiny compared to the rest of the country)."
+        message: "Света, привет! Как отдохнула в отпуске? Куда ездила отдыхать?"
 
       },
       {
 
-        authorId: 188372,
-        authorName: "John",
+        authorId: 188375,
+        authorName: "Света",
         time: 1592005800,
-        message: "Working from a van in Australia isn’t feasible if you need internet. It may have improved over the last years but I spent some time in a camper van around Tasmania and internet was a real problem (and Tasmania is tiny compared to the rest of the country)."
+        message: "Привет! Отпуск удался) Правда пролетел мгновенно) Я летала в Испанию. Две недели провела в Валенсии. Очень советую отдых в Испании. Посещала Барселону. Это невороятный город. После отпуска у меня море положиельных эмоций)) "
 
       }
 
